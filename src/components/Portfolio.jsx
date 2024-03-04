@@ -1,10 +1,8 @@
 import React from "react";
 import othello from "../assets/portfolio/othello.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import donjon from "../assets/portfolio/donjon.jpg";
 import clinique from "../assets/portfolio/clinique.jpg";
 import soon from "../assets/portfolio/soon.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
