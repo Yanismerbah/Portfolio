@@ -13,26 +13,31 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-        Je m'appelle Anouar SAFI et je suis actuellement étudiant en 3ème année de Licence Informatique à
-l'université d'Orléans. Je vous adresse la présente pour soumettre ma candidature en vue d'un stage
-de 3 mois au sein de votre entreprise, à partir d'avril 2024.
-Passionné par le développement web, le traitement de données, l'intelligence artificielle et la
-cybersécurité, je suis particulièrement enthousiaste à l'idée de rejoindre votre équipe et de
-contribuer à vos projets innovants.
-
-        </p>
+        <div className="text-xl mt-6 md:mt-20">
+          <p>
+            Je m'appelle Anouar SAFI et je suis actuellement étudiant en 3ème
+            année de Licence Informatique à l'université d'Orléans. Je vous
+            adresse la présente pour soumettre ma candidature en vue d'un
+            stage de 3 mois au sein de votre entreprise, à partir d'avril 2024.
+            Passionné par le développement web, le traitement de données,
+            l'intelligence artificielle et la cybersécurité, je suis
+            particulièrement enthousiaste à l'idée de rejoindre votre équipe
+            et de contribuer à vos projets innovants.
+          </p>
+        </div>
 
         <br />
 
-        <p className="text-xl">
-        Mes compétences techniques en Java, Python, HTML, CSS,
-JavaScript, SQL, PHP, C/C++, et OCAML, acquises au cours de ma formation et de mes projets
-antérieurs, me permettent d'apporter une contribution significative à vos activités. Ma capacité à
-travailler aussi bien en autonomie qu'en équipe, ainsi que mon aptitude à m'adapter à divers
-environnements, font de moi un candidat polyvalent et motivé.
-
-        </p>
+        <div className="text-xl">
+          <p>
+            Mes compétences techniques en Java, Python, HTML, CSS, JavaScript,
+            SQL, PHP, C/C++, et OCAML, acquises au cours de ma formation et de
+            mes projets antérieurs, me permettent d'apporter une contribution
+            significative à vos activités. Ma capacité à travailler aussi bien en
+            autonomie qu'en équipe, ainsi que mon aptitude à m'adapter à divers
+            environnements, font de moi un candidat polyvalent et motivé.
+          </p>
+        </div>
       </div>
     </div>
   );

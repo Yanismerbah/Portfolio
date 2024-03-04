@@ -10,14 +10,14 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mb-8 md:mb-0 md:mr-4 md:w-1/2">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          Étudiant en Informatique
+            Étudiant en Informatique
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Je suis passionné par le monde de l'informatique et spécialisé dans le développement logiciel et web. 
-          Explorez mon portfolio pour découvrir mes compétences, 
-          projets et aspirations professionnelles.
+            Je suis passionné par le monde de l'informatique et spécialisé dans
+            le développement logiciel et web. Explorez mon portfolio pour
+            découvrir mes compétences, projets et aspirations professionnelles.
           </p>
 
           <div>
@@ -35,11 +35,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-full md:w-1/2">
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-full"
           />
         </div>
       </div>
@@ -48,3 +48,4 @@ const Home = () => {
 };
 
 export default Home;
+

@@ -15,32 +15,26 @@ const Portfolio = () => {
     {
       id: 2,
       src: clinique,
-      demoLink: "LIEN_DEMO_2",
-      codeLink: "LIEN_CODE_2",
+      demoLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/AnouarSafi",
     },
     {
       id: 3,
       src: donjon,
-      demoLink: "LIEN_DEMO_3",
-      codeLink: "LIEN_CODE_3",
+      demoLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/AnouarSafi",
     },
     {
       id: 4,
       src: soon,
-      demoLink: "LIEN_DEMO_4",
-      codeLink: "LIEN_CODE_4",
     },
     {
       id: 5,
       src: soon,
-      demoLink: "LIEN_DEMO_5",
-      codeLink: "LIEN_CODE_5",
     },
     {
       id: 6,
       src: soon,
-      demoLink: "LIEN_DEMO_6",
-      codeLink: "LIEN_CODE_6",
     },
   ];
 
@@ -57,22 +51,22 @@ const Portfolio = () => {
           <p className="py-6">Découvrez certains de mes projets directement ici</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 md:px-0">
           {portfolios.map(({ id, src, demoLink, codeLink }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg mb-8">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md w-full h-auto duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
+              <div className="flex flex-col mt-4 md:flex-row md:justify-between">
                 <a href={demoLink} target="_blank" rel="noopener noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="w-full md:w-1/2 px-6 py-3 mb-2 md:mb-0 md:mr-2 duration-200 hover:scale-105">
                     Demo
                   </button>
                 </a>
                 <a href={codeLink} target="_blank" rel="noopener noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="w-full md:w-1/2 px-6 py-3 duration-200 hover:scale-105">
                     Code
                   </button>
                 </a>
@@ -86,4 +80,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
