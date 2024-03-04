@@ -1,11 +1,41 @@
+/* Import des polices */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Media Queries */
+/* Styles pour les écrans de largeur maximale de 768 pixels (tablettes et téléphones) */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* Ajoutez d'autres styles spécifiques aux écrans étroits ici */
+}
+
+/* Styles pour les écrans de largeur entre 769 et 1024 pixels (petits ordinateurs portables) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  /* Ajoutez d'autres styles spécifiques aux écrans de taille moyenne ici */
+}
+
+/* Styles pour les écrans de largeur minimale de 1025 pixels (ordinateurs de bureau) */
+@media only screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+
+  /* Ajoutez d'autres styles spécifiques aux grands écrans ici */
+}
+
+/* Layer base pour la police Raleway */
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
