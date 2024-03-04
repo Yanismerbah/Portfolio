@@ -19,22 +19,19 @@ l'université d'Orléans. Je vous adresse la présente pour soumettre ma candida
 de 3 mois au sein de votre entreprise, à partir d'avril 2024.
 Passionné par le développement web, le traitement de données, l'intelligence artificielle et la
 cybersécurité, je suis particulièrement enthousiaste à l'idée de rejoindre votre équipe et de
-contribuer à vos projets innovants. Mes compétences techniques en Java, Python, HTML, CSS,
-JavaScript, SQL, PHP, C/C++, et OCAML, acquises au cours de ma formation et de mes projets
-antérieurs, me permettent d'apporter une contribution significative à vos activités. Ma capacité à
-travailler aussi bien en autonomie qu'en équipe, ainsi que mon aptitude à m'adapter à divers
-environnements, font de moi un candidat polyvalent et motivé.
-
+contribuer à vos projets innovants.
 
         </p>
 
         <br />
 
         <p className="text-xl">
-        Je suis persuadé que ce stage de formation représente une opportunité unique pour mettre en
-pratique mes connaissances, explorer de nouvelles technologies et bénéficier de l'expertise de votre
-entreprise. Mon enthousiasme, ma curiosité et ma motivation sont autant d'atouts que je suis prêt à
-mettre au service de votre équipe.
+        Mes compétences techniques en Java, Python, HTML, CSS,
+JavaScript, SQL, PHP, C/C++, et OCAML, acquises au cours de ma formation et de mes projets
+antérieurs, me permettent d'apporter une contribution significative à vos activités. Ma capacité à
+travailler aussi bien en autonomie qu'en équipe, ainsi que mon aptitude à m'adapter à divers
+environnements, font de moi un candidat polyvalent et motivé.
+
         </p>
       </div>
     </div>
