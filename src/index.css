@@ -15,6 +15,17 @@
   }
 
   /* Ajoutez d'autres styles spécifiques aux écrans étroits ici */
+
+  /* Ajoutez de la marge entre la fin de la partie "About" et le début de la partie "Experience" */
+  .experience-section {
+    margin-top: 20px;
+  }
+
+  /* Ajoutez de l'espace entre la fin de la partie "About" et la photo */
+  .about-section,
+  .profile-image {
+    margin-bottom: 20px;
+  }
 }
 
 /* Styles pour les écrans de largeur entre 769 et 1024 pixels (petits ordinateurs portables) */
