@@ -14,7 +14,7 @@ const PersonalInfo = () => {
   return (
     <div className="text-xl mt-6 md:mt-20">
       <p>
-      Je suis Anouar Safi, étudiant de 21 ans en Master 1 MIAGE à l'Université d'Orléans, 
+      Je suis Merbah Yanis, étudiant de 24 ans en Master 1 MIAGE à l'Université d'Orléans, 
       passionné par le développement informatique. 
       Actuellement, je me concentre sur le développement web, 
       avec l'ambition de bâtir une carrière solide dans ce domaine.
@@ -40,12 +40,11 @@ const HobbiesInfo = () => {
   return (
     <div className="text-xl">
       <p>
-        En dehors de ma vie académique, je suis un passionné de jeux vidéo,
-        ardent gamer et compétiteur, particulièrement doué à FIFA et Call of
-        Duty. Mon amour pour le football s'exprime également sur le terrain en
-        tant que joueur de l'équipe universitaire de futsal de l'Université
-        d'Orléans. Ces passions nourrissent mon esprit compétitif et ma
-        détermination à exceller dans tous les aspects de ma vie.
+      En dehors de ma vie académique, je suis passionnée par l'arbitrage et le sport. 
+      Mon engagement dans ces domaines reflète ma capacité à rester concentrée, 
+      à prendre des décisions justes sous pression et à travailler en équipe. *
+      Ces passions nourrissent ma détermination à exceller dans tout ce que j’entreprends, 
+      que ce soit sur le terrain ou en dehors.
       </p>
     </div>
   );

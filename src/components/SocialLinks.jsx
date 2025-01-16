@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/anouar-safi-129442240/",
+      href: "https://www.linkedin.com/in/yanis-merbah-877874300/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/AnouarSafi",
+      href: "https://github.com/Yanismerbah",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:safianouar509@gmail.com",
+      href: "mailto:yanis.merbah2021@gmail.com",
     },
     {
       id: 4,

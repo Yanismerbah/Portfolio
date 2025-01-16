@@ -9,37 +9,37 @@ const Portfolio = () => {
     {
       id: 1,
       src: othello,
-      codeLink: "https://github.com/AnouarSafi/Othello.git",
+      codeLink: "https://github.com/Yanismerbah/Othello.git",
     },
 
     {
       id: 2,
       src: clinique,
-      codeLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/Yanismerbah",
     },
 
     {
       id: 3,
       src: donjon,
-      codeLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/Yanismerbah",
     },
 
     {
       id: 4,
       src: soon,
-      codeLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/Yanismerbah",
     },
 
     {
       id: 5,
       src: soon,
-      codeLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/Yanismerbah",
     },
 
     {
       id: 6,
       src: soon,
-      codeLink: "https://github.com/AnouarSafi",
+      codeLink: "https://github.com/Yanismerbah",
     },
   ];
 
