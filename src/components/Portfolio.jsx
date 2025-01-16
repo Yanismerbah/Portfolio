@@ -9,32 +9,37 @@ const Portfolio = () => {
     {
       id: 1,
       src: othello,
-      demoLink: "https://github.com/AnouarSafi/Othello.git",
       codeLink: "https://github.com/AnouarSafi/Othello.git",
     },
+
     {
       id: 2,
       src: clinique,
-      demoLink: "https://github.com/AnouarSafi",
       codeLink: "https://github.com/AnouarSafi",
     },
+
     {
       id: 3,
       src: donjon,
-      demoLink: "https://github.com/AnouarSafi",
       codeLink: "https://github.com/AnouarSafi",
     },
+
     {
       id: 4,
       src: soon,
+      codeLink: "https://github.com/AnouarSafi",
     },
+
     {
       id: 5,
       src: soon,
+      codeLink: "https://github.com/AnouarSafi",
     },
+
     {
       id: 6,
       src: soon,
+      codeLink: "https://github.com/AnouarSafi",
     },
   ];
 
@@ -52,21 +57,16 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 md:px-0">
-          {portfolios.map(({ id, src, demoLink, codeLink }) => (
+          {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg mb-8">
               <img
                 src={src}
                 alt=""
                 className="rounded-md w-full h-auto duration-200 hover:scale-105"
               />
-              <div className="flex flex-col mt-4 md:flex-row md:justify-between">
-                <a href={demoLink} target="_blank" rel="noopener noreferrer">
-                  <button className="w-full md:w-1/2 px-6 py-3 mb-2 md:mb-0 md:mr-2 duration-200 hover:scale-105">
-                    Demo
-                  </button>
-                </a>
+              <div className="flex justify-center mt-4">
                 <a href={codeLink} target="_blank" rel="noopener noreferrer">
-                  <button className="w-full md:w-1/2 px-6 py-3 duration-200 hover:scale-105">
+                  <button className="px-6 py-3 duration-200 hover:scale-105">
                     Code
                   </button>
                 </a>
@@ -80,5 +80,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-

@@ -14,11 +14,10 @@ const PersonalInfo = () => {
   return (
     <div className="text-xl mt-6 md:mt-20">
       <p>
-        Je suis Anouar Safi, un étudiant de 20 ans en troisième année de licence
-        informatique, spécialisé en ingénierie, à l'Université d'Orléans.
-        Actuellement en pleine réflexion sur ma spécialité future, oscillant
-        entre le développement web et le domaine de la data, je suis déterminé à
-        orienter ma carrière vers l'informatique.
+      Je suis Anouar Safi, étudiant de 21 ans en Master 1 MIAGE à l'Université d'Orléans, 
+      passionné par le développement informatique. 
+      Actuellement, je me concentre sur le développement web, 
+      avec l'ambition de bâtir une carrière solide dans ce domaine.
       </p>
     </div>
   );
@@ -27,18 +26,11 @@ const PersonalInfo = () => {
 const ProfessionalInfo = () => {
   return (
     <div className="text-xl">
-      <p>
-        À la recherche d'une opportunité de stage de trois mois dans n'importe
-        quel domaine informatique, je suis prêt à débuter dès avril 2024. La
-        possibilité de prolonger ce stage jusqu'au 31 juillet 2024 constitue une
-        chance d'approfondir mes connaissances et d'explorer davantage le monde
-        professionnel.
-      </p>
-      <p>
-        Parallèlement, mes projets incluent la recherche d'une alternance pour
-        mon master, prévu pour la rentrée de septembre 2025. Je suis convaincu
-        que cette expérience contribuera grandement à l'enrichissement de mes
-        compétences et à ma croissance professionnelle.
+     <p> 
+      À la recherche d'une alternance pour ma deuxième année de Master MIAGE à partir de septembre 2025, 
+      je souhaite intégrer une entreprise où je pourrai développer mes compétences en développement informatique 
+      tout en contribuant activement à des projets innovants. 
+      Cette opportunité sera pour moi une étape clé pour allier apprentissage académique et expérience professionnelle. 
       </p>
     </div>
   );

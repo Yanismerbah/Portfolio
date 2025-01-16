@@ -13,9 +13,8 @@
   html {
     font-size: 14px;
   }
-
+  
   /* Ajoutez d'autres styles spécifiques aux écrans étroits ici */
-
   /* Ajoutez de la marge entre la fin de la partie "About" et le début de la partie "Experience" */
   .experience-section {
     margin-top: 20px;
@@ -33,8 +32,7 @@
   html {
     font-size: 16px;
   }
-
-  /* Ajoutez d'autres styles spécifiques aux écrans de taille moyenne ici */
+/* Ajoutez d'autres styles spécifiques aux écrans de taille moyenne ici */
 }
 
 /* Styles pour les écrans de largeur minimale de 1025 pixels (ordinateurs de bureau) */
@@ -42,7 +40,6 @@
   html {
     font-size: 18px;
   }
-
   /* Ajoutez d'autres styles spécifiques aux grands écrans ici */
 }
 
