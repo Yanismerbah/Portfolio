@@ -12,7 +12,7 @@ const Home = () => {
             Étudiant en Informatique
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Passionné par l'univers de l'informatique, je me consacre au développement logiciel et explore divers domaines technologiques. Parcourez mon portfolio pour découvrir mes compétences, projets et aspirations professionnelles.
+            Passionné par l'univers de l'informatique, je me consacre au développement java et explore divers domaines technologiques. Parcourez mon portfolio pour découvrir mes compétences, projets et aspirations professionnelles.
           </p>
 
           <div>

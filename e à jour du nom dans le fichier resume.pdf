@@ -1,0 +1,271 @@
+[33mcommit e1167506eeb2ab0b373ba3ac16776ba9a9c3743b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Yanis Merbah <yanis.merbah2021@gmail.com>
+Date:   Thu Jan 16 19:09:16 2025 +0100
+
+    Initial commit
+
+[1mdiff --git a/public/index.html b/public/index.html[m
+[1mindex a8ac16d..6a0d219 100644[m
+[1m--- a/public/index.html[m
+[1m+++ b/public/index.html[m
+[36m@@ -24,7 +24,7 @@[m
+       work correctly both with client-side routing and a non-root public URL.[m
+       Learn how to configure a non-root public URL by running `npm run build`.[m
+     -->[m
+[31m-    <title>Anouar SAFI</title>[m
+[32m+[m[32m    <title>Merbah Yanis</title>[m
+   </head>[m
+   <body>[m
+     <noscript>You need to enable JavaScript to run this app.</noscript>[m
+[1mdiff --git a/public/resume.pdf b/public/resume.pdf[m
+[1mindex 12bf6c0..9ef4c28 100644[m
+[1m--- a/public/resume.pdf[m
+[1m+++ b/public/resume.pdf[m
+[36m@@ -1,54 +1,71 @@[m
+[31m-                                          ANOUAR[m
+[31m-                                          SAFI[m
+[31m-[m
+[31m-                                                     RECHERCHE DE STAGE EN INFORMATIQUE[m
+[31m-[m
+[31m-                                                  PROFIL[m
+[31m-[m
+[31m-    COORDONNÉES                           Étudiant en 3ème année de licence en informatique à[m
+[31m-                                          l'Université d'Orléans, je suis à la recherche d'un stage en[m
+[31m-     Tél                                  informatique d'une durée d'au moins 3 mois à partir d’Avril[m
+[31m-      +33 6 68 10 23 09                   2024 , pour développer mes compétences techniques,[m
+[31m-                                          acquérir une expérience professionnelle significative, et[m
+[31m-      Mail                                contribuer de manière proactive à des projets informatiques[m
+[31m-      safianouar509@gmail.com             stimulants au sein de votre entreprise[m
+[31m-[m
+[31m-      Adresse                             FORMATIONS[m
+[31m-      6 rue d’Issoudun Orleans,[m
+[31m-      45100                                 2021 - 2024                   2021[m
+[31m-     Mobilté                               Licence en[m
+[31m-      Toute la France                     Informatique   Baccalauréat Scientifique[m
+[31m-     LinkedIn                                                  Lycée Abderrahmane[m
+[31m-      https://www.linkedin.com/in/anouar     Université                  Ennacer[m
+[31m-      -safi-129442240/                        d'Orléans             Kénitra, Maroc[m
+[31m-     GitHub[m
+[31m-      https://github.com/AnouarSafi           PROJETS ACADÉMIQUES[m
+[31m-[m
+[31m-    COMPÉTENCES                             Développement d'une Application de Jeux en Java[m
+[31m-                                               Jeux classiques inclus : Othello et Awalé.[m
+[31m-Langages de programmation:                     Utilisation de l'architecture Modèle-Vue-Contrôleur[m
+[31m- Java , Python , langage C ,                   (MVC).[m
+[31m- C++, JavaScript , Prolog ,                    Mise en œuvre de la logique des jeux.[m
+[31m- Ocaml                                         Développement de l'interface utilisateur[m
+[31m-Développement web:[m
+[31m-  HTML , CSS , PHP , Symfony ,              Projet Sprint[m
+[31m-  Angular[m
+[31m-Bases de données relationnelles           Conception d’un site Web de base pour la gestion d’une[m
+[31m-  SQL , phpMyAdmin                        clinique , en utilisant une architecture MVC et les langages[m
+[31m-Analyse des algorithmes.                  HTML , CSS , PHP , JavaScript[m
+[31m-Réseau.[m
+[31m-                                             Portfolio personnel[m
+[31m-    LANGUES[m
+[31m-                                          Conception et développement d'un portfolio interactif et[m
+[31m-     Anglais                              réactif en utilisant REACT et Tailwind CSS.[m
+[31m-     Français                             https://anouar-safi-portfolio.netlify.app/[m
+[31m-     Arabe[m
+[31m-                                              AUTRES EXPÉRIENCES PROFESSIONNELLES[m
+[31m-      CENTRES D'INTÉRÊT[m
+[31m-                                            Magasinier - Gestionnaire de stock (JOB ETUDIANT)[m
+[31m-Football, jeux vidéos, mangas.              Centre Hospitalier d’Orléans Hôpital de la Source[m
+[31m-                                            (Orléans, France)[m
+[31m-[m
+[31m-                                               Assurer l’inventaire des produits stockés[m
+[31m-                                               Réaliser la réception et le contrôle des colis[m
+[32m+[m[32m                                                                          Expériences professionnelles[m
+[32m+[m
+[32m+[m[32m                                                                          Juil 2023 -jan 2024 :Analyste en Données chez ENIEM .[m
+[32m+[m
+[32m+[m[32m                                                                          -Collecte et préparation des données                        .[m
+[32m+[m
+[32m+[m[32m                                                                          -Analyse et visualisation des données                       .[m
+[32m+[m
+[32m+[m[32m                                                                          - Interprétation des résultats                              .[m
+[32m+[m
+[32m+[m[32m                                                                          -Mise en place d’un Dashboard Automatisé[m
+[32m+[m
+[32m+[m[32m                                .                                         Mars 2022 - sept 2022 :développeur d'application chez[m
+[32m+[m[32m                                                                          NEW IDEA IT[m
+[32m+[m[32mMERBAH YANIS                    .                                         -Développement de nouvelles fonctionnalités pour[m
+[32m+[m[32m                                .                                         l'application principale.[m
+[32m+[m[32m                                                                          -Correction de bugs signalés par l'équipe de test ou les[m
+[32m+[m[32mData Analyst                    .                                         utilisateurs.[m
+[32m+[m[32m                                                                          -Participation aux revues de code pour évaluer et[m
+[32m+[m[32mActuellement, à la recherche d'une alternance .                            recevoir des commentaires sur le code.[m
+[32m+[m[32m                                                                          -Participation aux tests d'intégration pour assurer[m
+[32m+[m[32men Data Analytics d'une durée de 12 mois, .                               l'interopérabilité du système.[m
+[32m+[m
+[32m+[m[32m                                                                       .  Projets réalisés[m
+[32m+[m
+[32m+[m[32mdisponible sur l'ensemble du territoire français[m
+[32m+[m
+[32m+[m[32mà partir de septembre 2024.[m
+[32m+[m
+[32m+[m[32mContact                                                                   Développeur web full stack freelance (depuis 2021) :[m
+[32m+[m
+[32m+[m[32m    0751187040                                                            -E-commerce bijoux : création d'une boutique en ligne[m
+[32m+[m[32m    yanis.merbah2021@gmail.com[m
+[32m+[m[32m    Île-de-France, France                                                 complète (HTML, CSS, JS, Ajax, PHP).                           .[m
+[32m+[m[32m    Yanis Merbah[m
+[32m+[m[32m                                                                          -Site web agence : développement d'un site dynamique avec[m
+[32m+[m
+[32m+[m[32m                                                                          base de données et formulaire (HTML, CSS, JS, MySQL).[m
+[32m+[m
+[32m+[m[32m                                                                          -Site e-commerce : création d'un site WordPress avec[m
+[32m+[m
+[32m+[m[32m                                                                          catalogue de produits, paiement en ligne et galerie photo.[m
+[32m+[m
+[32m+[m[32m Competences                                                              Projet Big Data: prédiction des élections présidentielles de[m
+[32m+[m
+[32m+[m[32m    Base de données : MySQL, ProgreSQL.                                   2027 en France :                                               .[m
+[32m+[m[32m    Analyse de données : Python, SQL, ALTERYX[m
+[32m+[m[32mpour l'intégration des données, Power Bi, Tableau.                        - Collecter les besoins en données                             .[m
+[32m+[m[32m     Langages de Programmation : Java script,[m
+[32m+[m[32mSQL, Html, Css, python , PHP, C, C++.                                     -Prétraitement des données avec alteryx                        .[m
+[32m+[m
+[32m+[m[32m                                                                          -Visualisation avec Power BI                                   .[m
+[32m+[m
+[32m+[m[32m                                                                          -Définir une architecture business intelligence                .[m
+[32m+[m
+[32m+[m[32m                                                                          -Appliquer les procédures de sécurité.[m
+[32m+[m
+[32m+[m[32mLangue                                                                    Parcours académique[m
+[32m+[m
+[32m+[m[32m Anglais B1                                                               MARS 2024: 4-ème année MSc expert en informatique et[m
+[32m+[m[32m                                                                          système d'information. École d’informatique EPSI, Paris,[m
+[32m+[m[32m  Kabyle C2                                                               France.[m
+[32m+[m[32m  Arabe C2[m
+[32m+[m[32m                                                                          2022-2023 : Master 1 informatique, spécialité Réseaux,[m
+[32m+[m[32mCentre d’intérêt                                                          Mobilité et Systèmes Embarqués. Université Mouloud[m
+[32m+[m[32m                                                                          Mammeri Tizi-Ouzou ,Algérie.[m
+[32m+[m[32mArbitrage de football[m
+[32m+[m[32mProgrammation                                                             2019-2022 : Diplôme de Licence en informatique,[m
+[32m+[m[32mSéries télévisées                                                         spécialité Système informatique. Université Mouloud[m
+[32m+[m[32m                                                                          Mammeri / Tizi-Ouzou, Algérie.[m
+ [m
+[1mdiff --git a/src/components/About.jsx b/src/components/About.jsx[m
+[1mindex a2e758a..3c250cf 100644[m
+[1m--- a/src/components/About.jsx[m
+[1m+++ b/src/components/About.jsx[m
+[36m@@ -14,7 +14,7 @@[m [mconst PersonalInfo = () => {[m
+   return ([m
+     <div className="text-xl mt-6 md:mt-20">[m
+       <p>[m
+[31m-      Je suis Anouar Safi, étudiant de 21 ans en Master 1 MIAGE à l'Université d'Orléans, [m
+[32m+[m[32m      Je suis Merbah Yanis, étudiant de 24 ans en Master 1 MIAGE à l'Université d'Orléans,[m[41m [m
+       passionné par le développement informatique. [m
+       Actuellement, je me concentre sur le développement web, [m
+       avec l'ambition de bâtir une carrière solide dans ce domaine.[m
+[36m@@ -40,12 +40,11 @@[m [mconst HobbiesInfo = () => {[m
+   return ([m
+     <div className="text-xl">[m
+       <p>[m
+[31m-        En dehors de ma vie académique, je suis un passionné de jeux vidéo,[m
+[31m-        ardent gamer et compétiteur, particulièrement doué à FIFA et Call of[m
+[31m-        Duty. Mon amour pour le football s'exprime également sur le terrain en[m
+[31m-        tant que joueur de l'équipe universitaire de futsal de l'Université[m
+[31m-        d'Orléans. Ces passions nourrissent mon esprit compétitif et ma[m
+[31m-        détermination à exceller dans tous les aspects de ma vie.[m
+[32m+[m[32m      En dehors de ma vie académique, je suis passionnée par l'arbitrage et le sport.[m[41m [m
+[32m+[m[32m      Mon engagement dans ces domaines reflète ma capacité à rester concentrée,[m[41m [m
+[32m+[m[32m      à prendre des décisions justes sous pression et à travailler en équipe. *[m
+[32m+[m[32m      Ces passions nourrissent ma détermination à exceller dans tout ce que j’entreprends,[m[41m [m
+[32m+[m[32m      que ce soit sur le terrain ou en dehors.[m
+       </p>[m
+     </div>[m
+   );[m
+[1mdiff --git a/src/components/NavBar.jsx b/src/components/NavBar.jsx[m
+[1mindex a45e324..fae8a95 100644[m
+[1m--- a/src/components/NavBar.jsx[m
+[1m+++ b/src/components/NavBar.jsx[m
+[36m@@ -31,7 +31,7 @@[m [mconst NavBar = () => {[m
+   return ([m
+     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">[m
+       <div>[m
+[31m-        <h1 className="text-5xl font-signature ml-2">Safi Anouar</h1>[m
+[32m+[m[32m        <h1 className="text-5xl font-signature ml-2">Merbah Yanis</h1>[m
+       </div>[m
+ [m
+       <ul className="hidden md:flex">[m
+[1mdiff --git a/src/components/Portfolio.jsx b/src/components/Portfolio.jsx[m
+[1mindex 8c33edf..d49ebf5 100644[m
+[1m--- a/src/components/Portfolio.jsx[m
+[1m+++ b/src/components/Portfolio.jsx[m
+[36m@@ -9,37 +9,37 @@[m [mconst Portfolio = () => {[m
+     {[m
+       id: 1,[m
+       src: othello,[m
+[31m-      codeLink: "https://github.com/AnouarSafi/Othello.git",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah/Othello.git",[m
+     },[m
+ [m
+     {[m
+       id: 2,[m
+       src: clinique,[m
+[31m-      codeLink: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah",[m
+     },[m
+ [m
+     {[m
+       id: 3,[m
+       src: donjon,[m
+[31m-      codeLink: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah",[m
+     },[m
+ [m
+     {[m
+       id: 4,[m
+       src: soon,[m
+[31m-      codeLink: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah",[m
+     },[m
+ [m
+     {[m
+       id: 5,[m
+       src: soon,[m
+[31m-      codeLink: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah",[m
+     },[m
+ [m
+     {[m
+       id: 6,[m
+       src: soon,[m
+[31m-      codeLink: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      codeLink: "https://github.com/Yanismerbah",[m
+     },[m
+   ];[m
+ [m
+[1mdiff --git a/src/components/SocialLinks.jsx b/src/components/SocialLinks.jsx[m
+[1mindex 068a11f..7c9e3ca 100644[m
+[1m--- a/src/components/SocialLinks.jsx[m
+[1m+++ b/src/components/SocialLinks.jsx[m
+[36m@@ -12,7 +12,7 @@[m [mconst SocialLinks = () => {[m
+           LinkedIn <FaLinkedin size={30} />[m
+         </>[m
+       ),[m
+[31m-      href: "https://www.linkedin.com/in/anouar-safi-129442240/",[m
+[32m+[m[32m      href: "https://www.linkedin.com/in/yanis-merbah-877874300/",[m
+       style: "rounded-tr-md",[m
+     },[m
+     {[m
+[36m@@ -22,7 +22,7 @@[m [mconst SocialLinks = () => {[m
+           GitHub <FaGithub size={30} />[m
+         </>[m
+       ),[m
+[31m-      href: "https://github.com/AnouarSafi",[m
+[32m+[m[32m      href: "https://github.com/Yanismerbah",[m
+     },[m
+     {[m
+       id: 3,[m
+[36m@@ -31,7 +31,7 @@[m [mconst SocialLinks = () => {[m
+           Mail <HiOutlineMail size={30} />[m
+         </>[m
+       ),[m
+[31m-      href: "mailto:safianouar509@gmail.com",[m
+[32m+[m[32m      href: "mailto:yanis.merbah2021@gmail.com",[m
+     },[m
+     {[m
+       id: 4,[m

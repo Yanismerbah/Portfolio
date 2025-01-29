@@ -16,7 +16,7 @@ const PersonalInfo = () => {
       <p>
       Je suis Merbah Yanis, étudiant de 24 ans en Master 1 MIAGE à l'Université d'Orléans, 
       passionné par le développement informatique. 
-      Actuellement, je me concentre sur le développement web, 
+      Actuellement, je me concentre sur le développement java,
       avec l'ambition de bâtir une carrière solide dans ce domaine.
       </p>
     </div>
