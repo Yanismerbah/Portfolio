@@ -42,7 +42,7 @@ const HobbiesInfo = () => {
       <p>
       En dehors de ma vie académique, je suis passionnée par l'arbitrage et le sport. 
       Mon engagement dans ces domaines reflète ma capacité à rester concentrée, 
-      à prendre des décisions justes sous pression et à travailler en équipe. *
+      à prendre des décisions justes sous pression et à travailler en équipe.
       Ces passions nourrissent ma détermination à exceller dans tout ce que j’entreprends, 
       que ce soit sur le terrain ou en dehors.
       </p>
